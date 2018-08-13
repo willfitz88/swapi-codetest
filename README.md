@@ -7,7 +7,7 @@ The problem was solved by taking the 'consumables' attribute from the api for ea
 
 **Using the application**
 
-Run code in any browser using scratch js or similar. The app will ask for a number input the results are returned in the console.
+Run code in any browser using scratch js or similar. The app will ask for a number input the results are returned in the console log.
 
 
 **Future improvements & options**
