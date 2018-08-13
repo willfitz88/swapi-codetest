@@ -2,7 +2,7 @@
 
 Finding for all SW star ships, to cover a given distance, how many stops for resupply are required.
 
-The problem was solved by taking the 'consumables' attribute from the api for each starship and converting to hours which can then be multipled by the 'MGLT' attribute to give the amount of times the starship has to stop and refuel on the given distance journey. 
+The problem was solved by taking the 'consumables' attribute from the api for each starship and converting to hours which can then be multipled by the 'MGLT' attribute to give total distance the starship can travel in one go, we divide that then by the user inputted distance ( rounding down - the last stop being the destination. ) to get the amount of times the starship has to stop and refuel on the given journey. 
 
 
 **Using the application**
